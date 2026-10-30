@@ -1,0 +1,19 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+}
+
+ext {
+    extName = 'MangaRaw18'
+    pkgNameSuffix = 'ja.mangaraw18'
+    extClass = '.MangaRaw18'
+    extVersionCode = 1
+    libVersion = '1.4'
+}
+
+apply from: "$rootDir/common.gradle"
+
+dependencies {
+    implementation project(':lib:lib-compression') // Kalau butuh kompresi/gambar tertentu
+    // Tambahin dependensi lain kalau perlu, misal Jsoup biasanya udah include dari core
+}

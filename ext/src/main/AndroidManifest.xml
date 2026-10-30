@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="eu.kanade.tachiyomi.extension.ja.mangaraw18">
+
+    <application
+        android:label="@string/extension_name"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_round_launcher"
+        android:supportsRtl="true">
+        
+        <meta-data
+            android:name="tachiyomi.extension.version"
+            android:value="1.4.0" />
+            
+        <meta-data
+            android:name="eu.kanade.tachiyomi.extension.class"
+            android:value="eu.kanade.tachiyomi.extension.ja.mangaraw18.MangaRaw18" />
+    </application>
+
+</manifest>
